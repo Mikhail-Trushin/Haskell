@@ -1,5 +1,5 @@
-read x
-read y
+x=$1
+y=$2
 if [[ $y == *"$x"* ]]; then
 echo yes
 else
